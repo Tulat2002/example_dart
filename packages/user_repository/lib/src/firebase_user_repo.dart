@@ -2,7 +2,7 @@ import 'dart:developer';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:rxdart/rxdart.dart';
-import '../user_repository.dart';
+import 'package:user_repository/user_repository.dart';
 
 class FirebaseUserRepo implements UserRepository {
   final FirebaseAuth _firebaseAuth;
@@ -68,5 +68,9 @@ class FirebaseUserRepo implements UserRepository {
       rethrow;
     }
   }
+
+
+
+
 
 }

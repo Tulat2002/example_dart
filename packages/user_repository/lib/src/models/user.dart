@@ -1,11 +1,10 @@
-
 import '../entities/entities.dart';
 
-class MyUser{
-   String userId;
-   String email;
-   String name;
-   bool hasActiveCart;
+class MyUser {
+  String userId;
+  String email;
+  String name;
+  bool hasActiveCart;
 
   MyUser({
     required this.userId,
@@ -43,5 +42,4 @@ class MyUser{
   String toString() {
     return 'MyUser: $userId, $email, $name, $hasActiveCart';
   }
-
 }
